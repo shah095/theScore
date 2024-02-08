@@ -1,0 +1,12 @@
+{
+  "server_uri":  "http://127.0.0.1:4743/wd/hub",
+  "desired_caps": {
+        "platformName": "Android",
+        "deviceName": "emulator-5554",
+        "automationName": "UiAutomator2",
+        "avd": "Pixel_3a_emulator",
+        "appPackage": "com.fivemobile.thescore",
+        "noReset": true,
+        "appActivity": ".ui.MainActivity"
+    }
+}
