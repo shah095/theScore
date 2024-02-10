@@ -4,9 +4,8 @@
         "platformName": "Android",
         "deviceName": "emulator-5554",
         "automationName": "UiAutomator2",
-        "avd": "Pixel_3a_emulator",
         "appPackage": "com.fivemobile.thescore",
-        "noReset": true,
+        "noReset": false,
         "appActivity": ".ui.MainActivity"
     }
 }

@@ -9,11 +9,12 @@
 ### Appium:
   - Appium v2.0.1
   - Make sure uiautomator2 is installed (for android)
-      - Can be installed with:
-          - appium driver install uiautomator2
+      - Can be installed with: 
+        - `appium driver install uiautomator2`
 
 ### Java:
   - Using Java version "20.0.1" 2023-04-18
+    - **Note:** _UiAutomator2 is compatible with Java11_
 
 ### Android Studio
   - Android Studio Hedgehog | 2023.1.1 Patch 2
@@ -28,13 +29,19 @@
 ### Phone:
 - virtual on Android Studio
   - model: Pixel 7 Pro API 34
-  - OS: Android 14.0
+  - OS: Android 14.0]
+
+### Python:
+- [Python 3.9.X](https://www.python.org/downloads/release/python-3918/)
 
 ## Setup
+### Requirements:
+- Install python requirements with the following:
+  - `pip install -r requirments.txt`
 ### Appium:
 - Have **_ANDROID_SDK_ROOT_** or **_ANDROID_HOME_** environment variable set to **SDK** path.
 - Start appium:
-  - `appium -p 4743 --base-path /wd/hub`
+  - `appium -p <port> --base-path /wd/hub`
     - where port is **_4743_**, that can be changed to a different port.
-- 
+
 
